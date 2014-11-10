@@ -25,7 +25,8 @@
         <activity
             android:name="com.example.bojie.ribbit.SignUpActivity"
             android:label="@string/title_activity_sign_up"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.bojie.ribbit.LoginActivity">
         </activity>
     </application>
 
