@@ -15,5 +15,13 @@
     <string name="tv_signup">Sign Up</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="btn_signup">Sign Up</string>
+    <string name="signup_error_message">Please make sure you enter a username, password and email address</string>
+    <string name="signup_error_title">Oops!</string>
+    <string name="login_error_message">Please make sure your username and password are correct! </string>
+    <string name="login_error_title">Oops!</string>
+    <string name="menu_logout_label">LogOut</string>
+    <string name="tv_forgetpassword">Forget your password?</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="tv_enter_email_title">Please enter your email</string>
 
 </resources>
