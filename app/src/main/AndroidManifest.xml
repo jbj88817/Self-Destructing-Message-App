@@ -34,7 +34,8 @@
         </activity>
         <activity
             android:name="com.example.bojie.ribbit.ForgetPasswordActivity"
-            android:label="@string/title_activity_forget_password" >
+            android:label="@string/title_activity_forget_password"
+            android:parentActivityName="com.example.bojie.ribbit.LoginActivity">
         </activity>
     </application>
 
