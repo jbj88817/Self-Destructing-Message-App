@@ -35,7 +35,16 @@
         <activity
             android:name="com.example.bojie.ribbit.ForgetPasswordActivity"
             android:label="@string/title_activity_forget_password"
-            android:parentActivityName="com.example.bojie.ribbit.LoginActivity">
+            android:parentActivityName="com.example.bojie.ribbit.LoginActivity" >
+        </activity>
+        <activity
+            android:name="com.example.bojie.ribbit.EditFriendsActivity"
+            android:label="@string/title_activity_edit_friends"
+            android:parentActivityName="com.example.bojie.ribbit.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bojie.ribbit.MainActivity" />
         </activity>
     </application>
 
