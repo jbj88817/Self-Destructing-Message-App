@@ -12,6 +12,10 @@ buildscript {
     }
 }
 
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+}
+
 allprojects {
     repositories {
         jcenter()

@@ -33,6 +33,7 @@ public class FriendsFragment extends ListFragment {
         return rootView;
     }
 
+    @Override
     public void onResume() {
         super.onResume();
 
