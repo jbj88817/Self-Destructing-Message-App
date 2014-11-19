@@ -61,10 +61,6 @@
                 android:value="com.example.bojie.ribbit.MainActivity" />
         </activity>
         <activity
-            android:name="com.example.bojie.ribbit.ViewImageActivity"
-            android:label="@string/title_activity_view_image" >
-        </activity>
-        <activity
             android:name="com.example.bojie.ribbit.ViewImageAcitivity"
             android:label="@string/title_activity_view_image_acitivity"
             android:parentActivityName="com.example.bojie.ribbit.MainActivity"
