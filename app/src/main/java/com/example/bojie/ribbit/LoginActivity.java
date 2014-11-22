@@ -1,5 +1,6 @@
 package com.example.bojie.ribbit;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -31,6 +32,9 @@ public class LoginActivity extends Activity {
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         setContentView(R.layout.activity_login);
 
+        ActionBar actionBar = getActionBar();
+        actionBar.hide();
+
         // Go to Sign up
         mSignUp_TV = (TextView) findViewById(R.id.tv_signup);
         mSignUp_TV.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +46,7 @@ public class LoginActivity extends Activity {
         });
 
         // Forget Password
-        mForgetPassword_TV = (TextView) findViewById(R.id.tv_forgetpassword);
+        mForgetPassword_TV = (TextView) findViewById(R.id.tv_forgetPassword);
         mForgetPassword_TV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

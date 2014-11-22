@@ -1,5 +1,6 @@
 package com.example.bojie.ribbit;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -28,6 +29,10 @@ public class SignUpActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         setContentView(R.layout.activity_sign_up);
+
+        ActionBar actionBar = getActionBar();
+        actionBar.hide();
+
         mUserName = (EditText) findViewById(R.id.et_username);
         mPassword = (EditText) findViewById(R.id.et_password);
         mEmail = (EditText) findViewById(R.id.et_email);

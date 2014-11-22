@@ -10,8 +10,8 @@
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
     <string name="email_hint">Email</string>
-    <string name="btn_login">Log in</string>
-    <string name="tv_signup">Sign Up</string>
+    <string name="btn_login">SIGN IN</string>
+    <string name="tv_signup">Don\'t have an account? Sign Up!</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="btn_signup">Sign Up</string>
     <string name="signup_error_message">Please make sure you enter a username, password and email address</string>
@@ -19,7 +19,7 @@
     <string name="login_error_message">Please make sure your username and password are correct! </string>
     <string name="login_error_title">Oops!</string>
     <string name="menu_logout_label">LogOut</string>
-    <string name="tv_forgetpassword">Forget your password?</string>
+    <string name="tv_forgetPassword">Forget your password?</string>
     <string name="title_activity_forget_password">ForgetPasswordActivity</string>
     <string name="tv_enter_email_title">Please enter your email</string>
     <string name="empty_inbox_label">No new messages!</string>
@@ -52,5 +52,7 @@
     <string name="error_sending_message">There was an error sending your message. Please try again!</string>
     <string name="title_activity_view_image">ViewImageActivity</string>
     <string name="title_activity_view_image_acitivity">Ribbit</string>
+    <string name="content_desc_backgroud">Ribbit Frog Background Image</string>
+    <string name="tv_subtitle">Self Destructing Message App</string>
 
 </resources>
