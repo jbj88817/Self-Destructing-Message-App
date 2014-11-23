@@ -13,7 +13,7 @@
     <string name="btn_login">SIGN IN</string>
     <string name="tv_signup">Don\'t have an account? Sign Up!</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
-    <string name="btn_signup">Sign Up</string>
+    <string name="btn_signup">SIGN UP</string>
     <string name="signup_error_message">Please make sure you enter a username, password and email address</string>
     <string name="signup_error_title">Oops!</string>
     <string name="login_error_message">Please make sure your username and password are correct! </string>
@@ -52,7 +52,9 @@
     <string name="error_sending_message">There was an error sending your message. Please try again!</string>
     <string name="title_activity_view_image">ViewImageActivity</string>
     <string name="title_activity_view_image_acitivity">Ribbit</string>
-    <string name="content_desc_backgroud">Ribbit Frog Background Image</string>
+    <string name="content_desc_background">Ribbit Frog Background Image</string>
     <string name="tv_subtitle">Self Destructing Message App</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="content_btn_divider">Button Divider</string>
 
 </resources>
