@@ -69,4 +69,12 @@ public class MessageAdapter extends ArrayAdapter<ParseObject> {
         mMessages.addAll(messages);
         notifyDataSetChanged();
     }
+
+    public static class ViewHolder {
+
+        ImageView iconImageView;
+        TextView nameLabel;
+        TextView timeLabel;
+
+    }
 }
