@@ -1,10 +1,14 @@
-package com.example.bojie.ribbit;
+package com.example.bojie.ribbit.adapters;
 
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.bojie.ribbit.R;
+import com.example.bojie.ribbit.ui.FriendsFragment;
+import com.example.bojie.ribbit.ui.InboxFragment;
 
 import java.util.Locale;
 

@@ -1,4 +1,4 @@
-package com.example.bojie.ribbit;
+package com.example.bojie.ribbit.ui;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;
@@ -13,6 +13,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.bojie.ribbit.utils.FileHelper;
+import com.example.bojie.ribbit.utils.ParseConstants;
+import com.example.bojie.ribbit.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;

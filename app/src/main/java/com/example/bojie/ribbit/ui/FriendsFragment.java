@@ -1,4 +1,4 @@
-package com.example.bojie.ribbit;
+package com.example.bojie.ribbit.ui;
 
 
 import android.app.AlertDialog;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
+import com.example.bojie.ribbit.utils.ParseConstants;
+import com.example.bojie.ribbit.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;

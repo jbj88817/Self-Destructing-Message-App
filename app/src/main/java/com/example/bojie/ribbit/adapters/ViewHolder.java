@@ -1,4 +1,4 @@
-package com.example.bojie.ribbit;
+package com.example.bojie.ribbit.adapters;
 
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -10,5 +10,6 @@ public class ViewHolder {
 
     ImageView iconImageView;
     TextView nameLabel;
+    TextView timeLabel;
 
 }

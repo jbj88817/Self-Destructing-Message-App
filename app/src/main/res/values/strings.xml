@@ -56,5 +56,6 @@
     <string name="tv_subtitle">Self Destructing Message App</string>
     <string name="btn_cancel">CANCEL</string>
     <string name="content_btn_divider">Button Divider</string>
+    <string name="content_desc_message_icon">Message icon</string>
 
 </resources>

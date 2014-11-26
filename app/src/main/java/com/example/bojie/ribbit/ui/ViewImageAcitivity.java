@@ -1,4 +1,4 @@
-package com.example.bojie.ribbit;
+package com.example.bojie.ribbit.ui;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
+import com.example.bojie.ribbit.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.Timer;

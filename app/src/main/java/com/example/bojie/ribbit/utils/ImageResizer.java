@@ -1,4 +1,4 @@
-package com.example.bojie.ribbit;
+package com.example.bojie.ribbit.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

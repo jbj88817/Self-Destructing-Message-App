@@ -1,4 +1,4 @@
-package com.example.bojie.ribbit;
+package com.example.bojie.ribbit.ui;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -18,6 +18,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.bojie.ribbit.utils.ParseConstants;
+import com.example.bojie.ribbit.R;
+import com.example.bojie.ribbit.adapters.SectionsPagerAdapter;
 import com.parse.ParseUser;
 
 import java.io.File;
