@@ -19,8 +19,7 @@
         android:stretchMode="columnWidth"
         android:verticalSpacing="@dimen/user_grid_spacing"
         android:gravity="center"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_centerHorizontal="true"   />
 
     <TextView
         android:id="@android:id/empty"
