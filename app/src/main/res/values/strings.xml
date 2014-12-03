@@ -58,5 +58,6 @@
     <string name="content_btn_divider">Button Divider</string>
     <string name="content_desc_message_icon">Message icon</string>
     <string name="content_desc_user_avatar">User avatar</string>
+    <string name="push_message">You have a new Ribbit message form %s</string>
 
 </resources>
